@@ -1,0 +1,52 @@
+<svg id="Figure.svg" xmlns="http://www.w3.org/2000/svg" width="382" height="382" viewBox="0 0 382 382">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #333;
+        stroke-width: 4px;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-dasharray: 0.001 8;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 16 8;
+      }
+
+      .cls-3, .cls-5 {
+        stroke: #000;
+        stroke-width: 1px;
+      }
+
+      .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="190.547" cy="190.547" r="164.953"/>
+  <circle id="Ellipse_3_copy" data-name="Ellipse 3 copy" class="cls-2" cx="191" cy="191" r="190"/>
+  <path class="cls-3" d="M25.6,190.94v-0.791H73.86v0.791H25.6Z"/>
+  <path class="cls-4" d="M122.116,190.149v-0.791h41.136v0.791H122.116Z"/>
+  <path id="Shape_4_copy" data-name="Shape 4 copy" class="cls-4" d="M221,190.149v-0.791h36.39v0.791H221Z"/>
+  <path id="Shape_4_copy_2" data-name="Shape 4 copy 2" class="cls-4" d="M307.229,190.94v-0.791H353.9v0.791H307.229Z"/>
+  <rect class="cls-5" x="73" y="72.938" width="235" height="235.063"/>
+  <rect class="cls-5" x="108.531" y="106.781" width="164" height="164.032"/>
+  <path id="Polygon_4" data-name="Polygon 4" class="cls-3" d="M190.54,25.6L355.4,190.49,190.54,355.375,25.681,190.49Z"/>
+  <path id="Polygon_4_copy" data-name="Polygon 4 copy" class="cls-3" d="M191.379,72.956L308.048,189.644,191.379,306.333,74.71,189.644Z"/>
+  <path id="Polygon_4_copy_4" data-name="Polygon 4 copy 4" class="cls-3" d="M142.344,72.956L259.013,189.644,142.344,306.333,25.675,189.644Z"/>
+  <path id="Polygon_4_copy_5" data-name="Polygon 4 copy 5" class="cls-3" d="M238.723,74.647L355.392,191.335,238.723,308.024,122.053,191.335Z"/>
+  <path id="Polygon_4_copy_3" data-name="Polygon 4 copy 3" class="cls-3" d="M192.212,159.2l29.59,29.6-29.59,29.6L162.622,188.8Z"/>
+  <path class="cls-3" d="M74.639,141.353l49.02,49.028-49.02,49.028-49.02-49.028Z"/>
+  <path id="Rectangle_9_copy" data-name="Rectangle 9 copy" class="cls-3" d="M306.287,142.144l49.02,49.028L306.287,240.2l-49.021-49.028Z"/>
+  <rect class="cls-5" x="73" y="72.938" width="69.344" height="69.344"/>
+  <rect id="Rectangle_8_copy" data-name="Rectangle 8 copy" class="cls-5" x="238.688" y="72.938" width="69.312" height="69.344"/>
+  <rect id="Rectangle_8_copy_2" data-name="Rectangle 8 copy 2" class="cls-5" x="73" y="238.656" width="69.344" height="69.344"/>
+  <rect id="Rectangle_8_copy_2-2" data-name="Rectangle 8 copy 2" class="cls-5" x="238.688" y="238.656" width="69.312" height="69.344"/>
+  <rect id="test.svg" class="cls-5" x="141.906" y="141.906" width="97.282" height="97.282"/>
+</svg>

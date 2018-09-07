@@ -1,0 +1,52 @@
+<svg id="Figure.svg" xmlns="http://www.w3.org/2000/svg" width="384" height="383.969" viewBox="0 0 384 383.969">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #333;
+        stroke-width: 4px;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-dasharray: 0.001 8;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 16 8;
+      }
+
+      .cls-3 {
+        stroke: #000;
+        stroke-width: 1px;
+      }
+
+      .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="191.547" cy="191.501" r="164.953"/>
+  <circle id="Ellipse_3_copy" data-name="Ellipse 3 copy" class="cls-2" cx="192" cy="191.969" r="190"/>
+  <path class="cls-3" d="M151.6,421.94v-0.791H199.86v0.791H151.6Z" transform="translate(-125 -230.031)"/>
+  <path class="cls-4" d="M248.116,421.149v-0.791h41.136v0.791H248.116Z" transform="translate(-125 -230.031)"/>
+  <path id="Shape_4_copy" data-name="Shape 4 copy" class="cls-4" d="M347,421.149v-0.791h36.39v0.791H347Z" transform="translate(-125 -230.031)"/>
+  <path id="Shape_4_copy_2" data-name="Shape 4 copy 2" class="cls-4" d="M433.229,421.94v-0.791H479.9v0.791H433.229Z" transform="translate(-125 -230.031)"/>
+  <path class="cls-3" d="M198.99,303.933H434.013v235.08H198.99V303.933Z" transform="translate(-125 -230.031)"/>
+  <path class="cls-3" d="M234.53,337.793h164V501.822h-164V337.793Z" transform="translate(-125 -230.031)"/>
+  <path id="Polygon_4" data-name="Polygon 4" class="cls-3" d="M316.54,256.6L481.4,421.49,316.54,586.375,151.681,421.49Z" transform="translate(-125 -230.031)"/>
+  <path id="Polygon_4_copy" data-name="Polygon 4 copy" class="cls-3" d="M317.379,303.956L434.048,420.644,317.379,537.333,200.709,420.644Z" transform="translate(-125 -230.031)"/>
+  <path id="Polygon_4_copy_4" data-name="Polygon 4 copy 4" class="cls-3" d="M268.344,303.956L385.013,420.644,268.344,537.333,151.675,420.644Z" transform="translate(-125 -230.031)"/>
+  <path id="Polygon_4_copy_5" data-name="Polygon 4 copy 5" class="cls-3" d="M364.723,305.647L481.392,422.335,364.723,539.024,248.053,422.335Z" transform="translate(-125 -230.031)"/>
+  <path id="Polygon_4_copy_3" data-name="Polygon 4 copy 3" class="cls-3" d="M318.212,390.2L347.8,419.8l-29.59,29.6-29.59-29.6Z" transform="translate(-125 -230.031)"/>
+  <path class="cls-3" d="M200.639,372.353l49.02,49.028-49.02,49.028-49.02-49.028Z" transform="translate(-125 -230.031)"/>
+  <path id="Rectangle_9_copy" data-name="Rectangle 9 copy" class="cls-3" d="M432.287,373.144l49.02,49.028L432.287,471.2l-49.021-49.028Z" transform="translate(-125 -230.031)"/>
+  <path class="cls-3" d="M198.99,303.933h69.342v69.342H198.99V303.933Z" transform="translate(-125 -230.031)"/>
+  <path id="Rectangle_8_copy" data-name="Rectangle 8 copy" class="cls-3" d="M364.7,303.933h69.314v69.342H364.7V303.933Z" transform="translate(-125 -230.031)"/>
+  <path id="Rectangle_8_copy_2" data-name="Rectangle 8 copy 2" class="cls-3" d="M198.99,469.671h69.342v69.342H198.99V469.671Z" transform="translate(-125 -230.031)"/>
+  <path id="Rectangle_8_copy_2-2" data-name="Rectangle 8 copy 2" class="cls-3" d="M364.7,469.671h69.314v69.342H364.7V469.671Z" transform="translate(-125 -230.031)"/>
+  <path class="cls-3" d="M267.9,372.905h97.278v97.278H267.9V372.905Z" transform="translate(-125 -230.031)"/>
+</svg>

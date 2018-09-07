@@ -1,0 +1,463 @@
+@import "reset.css";
+@import "skeleton.css";
+@import "header-menu.css";
+@import "social-menu.css";
+@import "audio.css";
+
+/**************************************************************
+
+    Global Styles
+
+/**************************************************************/
+p{
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    font-weight: 100
+}
+a{
+    color:#000;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', 'sans-serif';
+    font-size: 2.7rem; 
+}
+h1{
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 50px
+}
+.portfolio-close-item{
+    font-size: 1.9rem;
+    /* margin-left: -20px; */
+    /*margin:-50px 0 50px -100px;*/
+    color:#fff;
+    text-decoration: none;
+    display:block;
+    font-family: 'Oswald', 'sans-serif';
+    /* margin-top: -15px; */
+    margin-bottom:  30px;
+    position: absolute;
+    right: 21px;
+    top: 10px;
+}
+h1::after{
+    position: absolute;
+    height: 4px;
+    width: 50px;
+    content: '';
+    bottom: -25px;
+    left: 0;
+    background-color: #000;
+}
+.legal{
+    font-family: Arial, Helvetica, sans-serif
+}
+.small{
+    font-size:11px 
+}
+
+textarea{
+    min-height: 150px
+}
+body {
+    padding: 0;
+    overflow-x: hidden;
+    font-family:"Arial Narrow", Arial, sans-serif;
+}
+.relative{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+}
+footer{
+    bottom: 20px;
+    border-bottom:Solid 1px #000;
+    border-left: solid 1px;
+}
+/* Buttons */
+.button{
+    background-color: #000;
+    color: #ccc;
+    border-radius: 0;
+    border:none;   
+}
+/*Open Menu Classes*/
+.wrapper, footer, header, .menu-open aside, #menu-button, #play, #pause, section#work a,
+section#work img, #menu-button img, #menu-button span, body, .button, .arrow, .social-media li{
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out; 
+}
+.menu-open .wrapper,
+.menu-open header,
+.menu-open footer{
+    margin-left:300px;
+    margin-right:-300px;
+} 
+/* Margins, Positions & displays */
+.disabled{
+    cursor: not-allowed;
+  color:#ccc  
+}
+.mb-sm{
+    margin-bottom: 5px
+}
+.mb-md{
+    margin-bottom: 10px
+}
+.mb-lg{
+    margin-bottom: 20px
+}
+.mb-xl{
+    margin-bottom:40px
+}
+.center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block{
+    display: block
+}
+.margin-auto{
+    margin:auto
+}
+.responsive{
+    width: 100%
+}
+.vertical-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+/**************************************************************
+
+    Sidebar
+
+/**************************************************************/
+aside{
+    position: fixed;
+    left: -250px
+}
+.aside-footer{
+    min-width: 300px;
+    bottom: 0;
+    position: absolute;
+}
+.menu-open aside{
+    left: 20px;
+    top:20px
+}
+/*************************************************************** 
+
+    Homepage Intro 
+
+**************************************************************/
+#intro{
+    box-shadow: 0px 0px 50px #999;
+    padding: 20px;
+    background: url('../assets/icons/tetrahedron.svg');
+    background-size:90%;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    position: relative;
+    height: 100vh
+}
+.logo{
+    width: 130px;
+}  
+.logo-text{
+    text-transform: uppercase;
+    /*color:#a29060*/
+}
+.logo-text h2{
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-bottom: 0
+}
+.logo-text h6{
+    letter-spacing: 4px;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+}
+.logo-text h6:before,
+.logo-text h6:after {
+    width: 7px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background: #000;
+    left: -14px;
+    top: 12px;
+}
+.logo-text h6:after{
+    right: -10px;
+    left: initial
+}
+/* Next Section Arrow */
+.menu-open .arrow{
+    right: calc(49% - 300px);
+}
+.arrow{
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 49%;
+    z-index: 99;
+}
+/* Sections */
+section#work, section#about, section#contact{
+    position: relative;
+    padding:120px 10% 15%;
+    overflow: hidden;
+}
+/**************************************************************
+
+    About
+
+/**************************************************************/
+section#about .flower-wrapper{
+    display: none
+}
+/**************************************************************
+
+    Work
+
+/**************************************************************/
+section#work a{
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+section#work h3{
+    font-size: 2rem;
+    margin: 3px 0 40px;
+    letter-spacing: 1px;
+    text-align: center
+}
+section#work img{
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 50%;
+    /*border: dashed 2px #ccc;
+    padding: 7px;*/
+    display: block;
+}
+section#work a:hover img{
+    margin-top: -10px ;
+    margin-bottom: 5px;
+    box-shadow: 0px 5px 10px #999;
+}
+section#work {
+    box-shadow: 0px 10px 50px 0 #999;
+}
+/**************************************************************
+
+    Contact
+
+/**************************************************************/
+section#contact{
+    padding-top: 10%;
+    padding-bottom: 20%
+}
+section#contact .flower{
+    width: 70%;
+    display: block;
+    margin:20px auto 40px auto;
+    -webkit-animation: rotating 120s linear infinite;
+    -moz-animation: rotating 120s linear infinite;
+    -ms-animation: rotating 120s linear infinite;
+    -o-animation: rotating 120s linear infinite;
+    animation: rotating 120s linear infinite;
+
+}
+section#about,section#contact {
+    height: 100%;
+}
+.animation2{
+    -webkit-animation: rotating 120s linear infinite;
+    -moz-animation: rotating 120s linear infinite;
+    -ms-animation: rotating 120s linear infinite;
+    -o-animation: rotating 120s linear infinite;
+    animation: rotating 120s linear infinite;
+}
+/*email*/
+.error { 
+    display: block; 
+    color: red; 
+    font-style: italic; 
+} 
+/*
+#message { 
+    display:none; 
+    font-size:15px; 
+    font-weight:bold; 
+    color:#333333; 
+} */
+/**************************************************************
+
+    Portfolio Item
+
+/**************************************************************/
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 173px solid transparent;
+    border-left: 1120px solid #333;
+    border-bottom: 341px solid transparent;
+    position: fixed;
+    /* transform: scale(29); */
+    top: -60px;
+    z-index: -9;
+}
+.portfolio-page{
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    background-color: #fff;
+    min-height: 100vh;
+    animation: fadein2 1s;
+    -moz-animation: fadein2 1s; /* Firefox */
+    -webkit-animation: fadein2 1s; /* Safari and Chrome */
+    -o-animation: fadein2 1s; /* Opera */
+}    
+.portfolio-wrapper{
+    padding: 10%;
+}
+.portfolio-wrapper .fix,
+.portfolio-wrapper .fix a{
+    color: #fff
+}
+.portfolio-wrapper .fix h1::after{
+    background-color: #fff
+}
+/**************************************************************
+
+    Animations Styles
+
+/**************************************************************/
+@keyframes rotating{
+    from{
+        transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);}
+    to{
+        transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);}
+}
+@-webkit-keyframes rotating{
+	from{transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);}
+	to  {transform: rotate(360deg);
+		-webkit-transform: rotate(360deg)}
+}
+@keyframes fadein2 {
+    0%{opacity:0}
+    50% {opacity:0}
+    100% {opacity:1}
+}
+@-moz-keyframes fadein2 { /* Firefox */
+    0%{opacity:0}
+    50% {opacity:0}
+    100% {opacity:1}
+}
+@-webkit-keyframes fadein2 { /* Safari and Chrome */
+    0%{opacity:0}
+    50% {opacity:0}
+    100% {opacity:1}
+}
+/**************************************************************
+
+    Desktop Styles (Mobile First)
+
+/**************************************************************/
+@media (min-width: 768px) {
+    h1{
+        font-size: 4rem
+    }
+    .arrow{
+        display: block;
+    }
+    .button:hover{
+        letter-spacing: 1.5px;
+        color: #fff
+    }
+    /* Intro */ 
+    section#intro{
+        background-position: center 40%;
+        background-size: 40%;
+    }
+    /* About */
+    section#about{
+        padding-bottom: 10%;
+        background-image: none;
+    }
+    section#about img{
+        margin-top: 25%
+    }
+    section#about::after{
+        display: none;
+    }
+    section#about .flower-wrapper{
+        display: block;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        opacity: .15 !important;
+    }
+    section#about img.flower{
+        margin-top: 0;
+        -webkit-animation: rotating 120s linear infinite;
+        -moz-animation: rotating 120s linear infinite;
+        -ms-animation: rotating 120s linear infinite;
+        -o-animation: rotating 120s linear infinite;
+        animation: rotating 120s linear infinite;
+    }
+    /* Work */
+    section#work img {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+    section#about,section#work,section#contact {
+        min-height: calc(100vh - 120px);
+        padding-bottom: 0
+    }
+    /* Portfolio Items*/
+    .portfolio-close-item{
+        position: absolute;
+        left: -50px;
+        top: -50px
+    }
+    #triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 43px solid transparent;
+        border-left: 140px solid #333;
+        border-bottom: 31px solid transparent;
+        position: fixed;
+        transform: scale(29);
+        top: -60px;
+        z-index: -9;
+    }
+    .portfolio-wrapper .fix{
+        position: fixed;
+    }
+    .portfolio-wrapper{
+        padding:5% 10%;
+    }
+
+}

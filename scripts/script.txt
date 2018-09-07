@@ -1,0 +1,28 @@
+var allSections = [];
+  var obj;
+  var arrow = $('#next-arrow');
+  checkPosition();
+  $('.wrapper section').each(function(){
+    obj = {}
+    obj.offset = Math.round($(this).offset().top);
+    obj.id = $(this).attr('id');
+    allSections.push(obj);
+  });
+  $(window).scroll(function() {
+    scheckPosition();
+  });
+  function checkPosition(){
+    setTimeout(function(){
+      var scroll = $(window).scrollTop();  
+      $(allSections).each(function(idx, val){
+        if(scroll <= val.offset -20){
+          arrow.attr('href','#'+ val.id);
+          return false; 
+        }
+        //Check if last and star over
+        if(idx+1 === allSections.length) {
+          arrow.attr('href','#'+ allSections[0].id);
+        };
+      });
+    }, 375);
+  };

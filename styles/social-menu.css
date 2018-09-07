@@ -1,0 +1,54 @@
+.social-media{
+    list-style-type: none
+}
+.social-media li{
+    list-style-type: none;
+    background-color: #fff;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: calc(25% - 1px);
+    height: 64px;
+    border:solid 1px #000;
+    border-bottom: none;
+    border-left: none;
+}
+.social-media li a{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    padding:0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    
+}
+.social-media li a img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    padding: 21px 0px;
+}
+/**************************************************************
+
+    Desktop Styles
+
+/**************************************************************/
+@media (min-width: 768px) {
+    .social-media li:first-child{
+        border-left: solid 1px;
+    }
+    .social-media li a,
+    .social-media li{
+        width: 62px;
+    }    
+    .social-media li:hover{
+        background-color: #000;
+        color: #fff
+    }
+    .social-media li:hover a svg{
+        fill: #fff
+    } 
+}

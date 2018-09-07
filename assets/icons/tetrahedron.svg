@@ -1,0 +1,69 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <defs>
+    <style>
+    *{opacity:.6}
+    </style>
+   </defs> 
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="602" height="602" id="canvas_background" fill="transparent"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_3" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="none" stroke="#000" x="150.000015" y="150.000004" width="300" height="300" id="svg_2" transform="rotate(45 300.0000000000001,300) ">
+    <animateTransform attributeType="xml" 
+                attributeName="transform" 
+                type="rotate" 
+                to="360 300 300" 
+                from="0 300 300" 
+                dur="30s" 
+                additive="sum" 
+                repeatCount="indefinite" />
+  </rect>
+  <rect fill="none" x="150" y="149.99999" width="300" height="300" id="svg_1" stroke="#000">
+    <animateTransform attributeType="xml" 
+        attributeName="transform" 
+        type="rotate" 
+        to="360 300 300" 
+        from="0 300 300" 
+        dur="30s" 
+        additive="sum" 
+        repeatCount="indefinite" />
+  </rect>
+  <rect fill="none" x="194.500009" y="194.499997" width="211" height="211" id="svg_10" stroke="#000">
+      <animateTransform attributeType="xml" 
+        attributeName="transform" 
+        type="rotate" 
+        from="360 300 300" 
+        to="0 300 300" 
+        dur="30s" 
+        additive="sum" 
+        repeatCount="indefinite" />
+  </rect>
+  <rect fill="none" x="194.499976" y="194.500006" width="211" height="211" id="svg_11" stroke="#000" transform="rotate(45 299.9999694824219,300) "/>
+  <rect fill="none" x="150.21087" y="149.93049" width="87.616932" height="87.616932" id="svg_14" stroke="#000"/>
+  <rect fill="none" x="362.525401" y="149.93049" width="87.616932" height="87.616932" id="svg_16" stroke="#000"/>
+  <rect fill="none" x="150.21087" y="362.245021" width="87.616932" height="87.616932" id="svg_17" stroke="#000"/>
+  <rect fill="none" x="362.525401" y="362.245021" width="87.616932" height="87.616932" id="svg_18" stroke="#000"/>
+  <rect fill="none" stroke-width="null" stroke-opacity="null" fill-opacity="null" x="237.858304" y="237.743209" width="124.571103" height="124.571103" id="svg_19" stroke="#000"/>
+  <rect fill="none" stroke-width="null" stroke-opacity="null" fill-opacity="null" x="237.99999" y="238.000007" width="124" height="124" id="svg_20" stroke="#000" transform="rotate(45 300.0000000000001,300) "/>
+  <rect fill="none" stroke-width="null" stroke-opacity="null" fill-opacity="null" x="268.749984" y="268.749985" width="62.5" height="62.5" id="svg_21" transform="rotate(45 299.9999694824219,300) " stroke="#000"/>
+  <rect fill="none" stroke-width="null" stroke-opacity="null" fill-opacity="null" x="106.081952" y="255.999995" width="88" height="88" id="svg_22" transform="rotate(45 150.08195495605474,300) " stroke="#000"/>
+  <rect fill="none" stroke-width="null" stroke-opacity="null" fill-opacity="null" x="405.849069" y="256.037325" width="88" height="88" id="svg_23" transform="rotate(45 449.8485107421876,300.0373229980469) " stroke="#000"/>
+  <line fill="none" stroke="#000" stroke-width="null" stroke-opacity="null" fill-opacity="null" x1="88.139673" y1="300" x2="150.840347" y2="300" id="svg_24" stroke-linejoin="null" stroke-linecap="null"/>
+  <line fill="none" stroke="#000" stroke-width="null" stroke-opacity="null" fill-opacity="null" x1="449.255606" y1="300.000012" x2="511.95628" y2="300.000012" id="svg_25" stroke-linejoin="null" stroke-linecap="null"/>
+  <line fill="none" stroke-width="null" stroke-opacity="null" fill-opacity="null" x1="344.18783" y1="300.000011" x2="387" y2="300.000011" id="svg_26" stroke-linejoin="null" stroke-linecap="null" stroke="#000"/>
+  <line fill="none" stroke-width="null" stroke-opacity="null" fill-opacity="null" x1="212.971006" y1="300.000011" x2="255.783176" y2="300.000011" id="svg_27" stroke-linejoin="null" stroke-linecap="null" stroke="#000"/>
+  <path id="svg_7" d="m237.500002,150.5" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_9" y2="222.483955" x2="310.28358" y1="149.949359" x1="237.748984" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="#000" fill="none"/>
+  <line transform="rotate(90 274.0162658691406,413.72460937500006) " stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="449.991744" x2="310.28358" y1="377.457148" x1="237.748984" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="#000" fill="none"/>
+  <g transform="rotate(-180 326.27105712890625,299.9705810546875) " id="svg_29">
+   <line stroke-linecap="null" stroke-linejoin="null" id="svg_15" y2="222.483955" x2="362.53825" y1="149.949359" x1="290.003654" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="#000" fill="none"/>
+   <line transform="rotate(90 326.2710266113281,413.72460937500006) " stroke-linecap="null" stroke-linejoin="null" id="svg_28" y2="449.991744" x2="362.53825" y1="377.457148" x1="290.003654" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="#000" fill="none"/>
+  </g>
+ </g>
+</svg>

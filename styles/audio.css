@@ -1,0 +1,159 @@
+#play,#pause{
+    width: 64px;
+    height: 64px;
+    border:solid 1px #000;
+    background-color: #fff;
+    border-top:none;
+    position: absolute;
+    top:0;
+    right:0;
+    display: none;
+    border-radius: 0;
+    padding: 0
+}
+#pause.active,#play.active{
+    display: block
+}
+
+/* Animation */
+.animation-wrapper{
+    display: none;
+    z-index: -1;
+    overflow: hidden;
+    height: calc(100% + 40px);
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: .2;
+}
+body.active .animation-wrapper{
+    display: block
+}
+canvas {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    animation-name: pulse_animation;
+    animation-duration: 7000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display:none
+}
+#canvas {
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+#trails {
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+@keyframes pulse_animation {
+    0% { transform: scale(1)}
+    24%{ opacity: 0}
+    25%{ transform: scale(2); opacity: 1 }
+    50%{ transform: scale(1.8)}
+    91%{ opacity: 0;}
+    92%{ opacity: 1;}
+    100% { transform: scale(1)}
+}
+
+/* Dark Styles */
+body.active {
+    background: #222;
+}
+body.active h1::after{
+    background-color: #ddd
+}
+body.active section#contact img.flower,
+body.active .animation2{
+    opacity: 0 !important
+}
+body.active section#about img.flower{
+    display: none
+}
+body.active .intro{
+    background-image: none
+}
+body.active header,
+body.active footer,
+body.active #play, 
+body.active #pause,
+body.active .social-media li,
+body.active #menu-button,
+body.active aside,
+body.active button,
+body.active .button,
+body.active input[type="submit"], 
+body.active input[type="reset"], 
+body.active input[type="button"]{
+    border-color:#666666;
+    color:#fff;
+    background-color: #222
+}
+body.active section#intro,
+body.active section#work{
+    box-shadow: none;
+}
+body.active .logo-text,
+body.active .logo-text,
+body.active h1,
+body.active h2,
+body.active h3,
+body.active h4,
+body.active h5,
+body.active h6,
+body.active p,
+body.active button{
+    color: #ddd;
+}
+body.active .logo-text h6:before, 
+body.active .logo-text h6:after{
+    background-color: #fff;
+}
+body.active header,
+body.active footer{
+    background: none
+}
+
+body.active .button{
+    color:#fff;
+    border:solid 1px #666666
+}
+body.active header:after, 
+body.active header:before{
+    background-color: #666666
+}
+body.active aside ul li a{
+    color: #fff
+}
+body.active #intro{
+    background-image: none
+}
+body.active #about::after{
+    background-attachment: initial;
+    background-position: top;
+}
+#canvas.active, canvas.active{
+    display: block
+}
+#play img, #pause img {
+    margin: 18px;
+    max-width: 26px;
+}
+
+body.active input[type="email"], 
+body.active input[type="number"], 
+body.active input[type="search"],
+body.active input[type="text"], 
+body.active input[type="tel"], 
+body.active input[type="url"], 
+body.active input[type="password"], 
+body.active textarea, 
+body.active select{
+    background: none;
+    border-color: #ccc;
+}

@@ -1,0 +1,14 @@
+<svg id="close-icon.svg" xmlns="http://www.w3.org/2000/svg" width="24.281" height="24.281" viewBox="0 0 24.281 24.281">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-1" d="M20.552,21.248l0.566-.566,23.2,23.2-0.566.566Z" transform="translate(-20.031 -20.688)"/>
+    <path id="Shape_2_copy" data-name="Shape 2 copy" class="cls-1" d="M43.471,20.958l0.572,0.572L20.6,44.974,20.026,44.4Z" transform="translate(-20.031 -20.688)"/>
+  </g>
+</svg>

@@ -1,0 +1,100 @@
+header, footer {
+    /*padding: 10px;*/
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    z-index: 2;
+}
+header{
+    top:20px;
+    border-top:solid 1px #000;
+}
+header:after, header:before{
+    height:calc(100vh - 41px);
+    content: "";
+    width: 1px;
+    background-color: #000;
+    position: absolute;
+    top:0;
+}
+header:after{
+    left: 0;
+}
+header:before{
+    right: 0;
+}
+/* Menu Botton */
+#menu-button{
+    border:solid 1px #000;
+    background-color: #fff;
+    padding:35px 0 0 0;
+    width: 62px;
+    height: 43px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    border-top: none;
+    position: relative;
+    color:#000;
+    display: inline-block;
+    padding-top: 20px;
+    overflow: hidden;
+}
+#menu-button img{
+    position: absolute;
+    left: -30px;
+}
+.menu-open #menu-button{
+    background-color: #000;
+    color: #fff
+}
+.menu-open #menu-button span{
+    display: block;
+    margin-left: -98px
+}
+.menu-open #menu-button img{
+    left: 20px;
+    top:20px;
+}
+
+/* Aside  */
+aside{
+    height:calc(100vh - 42px)
+}
+aside h2{
+    font-size: 3rem;
+    margin-bottom: 3rem
+}
+aside ul li{
+    margin-bottom: 3rem;
+}
+aside ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    line-height:3rem;
+    font-weight: lighter;
+    color:#666;
+    letter-spacing: 2px
+}
+/* Styles for Desktop */
+@media (min-width: 768px) {
+    #menu-button:hover{
+        background-color: #000;
+        color: #fff
+    }
+    aside ul li a:hover{
+        text-decoration: line-through;
+        color:#000
+    }
+    #menu-button:hover img{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    aside h3 {
+        font-size: 4rem
+    }
+    aside ul li a {
+        font-size: 2.5rem
+    }
+}
