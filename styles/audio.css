@@ -9,10 +9,12 @@
     right:0;
     display: none;
     border-radius: 0;
-    padding: 0
+    padding: 0;
+    margin: 0;
 }
 #pause.active,#play.active{
-    display: block
+    display: block;
+    overflow: hidden;
 }
 
 /* Animation */
@@ -140,8 +142,13 @@ body.active #about::after{
 #canvas.active, canvas.active{
     display: block
 }
+#play:hover{
+    background-color: #000;
+    cursor: pointer;
+}
 #play img, #pause img {
-    margin: 18px;
+    margin: 0;
+    padding: 20px;
     max-width: 26px;
 }
 

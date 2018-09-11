@@ -2,7 +2,7 @@ $(document).ready(function(){
   /**
    * Menu Toggle Interaction
    */
-  $('#menu-button, #menu a' ).on( 'click', function( event ) {
+  $('#menu-button, #menu a, .item a' ).on( 'click', function( event ) {
       $('body').toggleClass('menu-open');
   });
   /**
@@ -21,6 +21,8 @@ $(document).ready(function(){
   //Pause
   $('#pause').click(function() {
     player.pause(); toggle();
+    changeSource('#play img', "social-dark", "social");
+
     changeSource(".social-media li img", "social-dark", "social");
   });
   //Toggle classes for all elements
@@ -28,7 +30,7 @@ $(document).ready(function(){
     $(elements.join()).toggleClass('active');
   };
   //Dark Social
-  $('.social-media li a img')
+  $('.social-media li a img, #play img')
   .mouseover(function() {
     if (!$("body").hasClass("active")) {
       changeSource(this, "social", "social-dark");
@@ -53,10 +55,8 @@ $(document).ready(function(){
   /**
    * Scroll To
    */
-  $('aside a[href^="#"]').on('click', function(event) {    
-    console.log(this);
+  $('aside a[href^="#"], .arrow a[href^="#"]').on('click', function(event) {    
     var target = $(this.getAttribute('href'));
-    console.log(target);
     if( target.length ) {
         event.preventDefault();
         $('html, body').stop().animate({

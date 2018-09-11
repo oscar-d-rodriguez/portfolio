@@ -84,7 +84,7 @@ footer{
 }
 /*Open Menu Classes*/
 .wrapper, footer, header, .menu-open aside, #menu-button, #play, #pause, section#work a,
-section#work img, #menu-button img, #menu-button span, body, .button, .arrow, .social-media li{
+section#work img, #menu-button img, #menu-button span, body, .button, .arrow, .social-media li, button{
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
     -o-transition: all .5s ease-out;
@@ -205,12 +205,33 @@ aside{
 .menu-open .arrow{
     right: calc(49% - 300px);
 }
-.arrow{
-    display: none;
-    position: fixed;
-    bottom: 100px;
-    right: 49%;
-    z-index: 99;
+.arrow-wrapper{
+    position: relative;
+    top: 80vh;
+    height: 100%;
+}
+.arrow {
+    box-sizing: border-box;
+    height: 4vw;
+    width: 4vw;
+    border-style: solid;
+    border-color: #666;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    -webkit-transition: border-width 150ms ease-in-out;
+    margin: 0 auto;
+}
+
+.arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 /* Sections */
 section#work, section#about, section#contact{
@@ -385,6 +406,15 @@ section#about,section#contact {
 
 /**************************************************************/
 @media (min-width: 768px) {
+    .button:hover, 
+    button:hover, 
+    input[type="submit"]:hover, 
+    input[type="reset"]:hover, 
+    input[type="button"]:hover{
+        background-color: #000;
+        color: #fff
+    }
+
     h1{
         font-size: 4rem
     }
