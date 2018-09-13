@@ -26,6 +26,9 @@ h1{
     position: relative;
     margin-bottom: 50px
 }
+.floatR{
+    float: right;
+}
 .portfolio-close-item{
     font-size: 1.9rem;
     /* margin-left: -20px; */
@@ -266,7 +269,7 @@ section#work h3{
 }
 section#work img{
     margin: 0 auto;
-    width: 60%;
+    width: 111px;
     border-radius: 50%;
     /*border: dashed 2px #ccc;
     padding: 7px;*/
@@ -460,7 +463,6 @@ section#about,section#contact {
     section#work img {
         display: block;
         margin: 0 auto;
-        width: 90%;
     }
     section#about,section#work,section#contact {
         min-height: calc(100vh - 120px);

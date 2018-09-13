@@ -10,7 +10,9 @@ $(document).ready(function(){
    */
   var player = $('#player').get(0);
   var elements = ['#play','#pause', 'body', '#canvas'];
-  player.onended = function() {toggle()};
+  player.onended = function() {toggle(), 
+    changeSource('#play img', "social-dark", "social");
+    changeSource(".social-media li img", "social-dark", "social");};
   //Play
   $('#play').click(function() {
     player.play(); 
@@ -22,7 +24,6 @@ $(document).ready(function(){
   $('#pause').click(function() {
     player.pause(); toggle();
     changeSource('#play img', "social-dark", "social");
-
     changeSource(".social-media li img", "social-dark", "social");
   });
   //Toggle classes for all elements
