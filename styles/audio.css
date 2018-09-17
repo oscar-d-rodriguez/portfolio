@@ -164,3 +164,9 @@ body.active select{
     background: none;
     border-color: #ccc;
 }
+body.active section#work .item{
+    border:none
+}
+body.active section#work .item:hover{
+    box-shadow: none
+}

@@ -29,19 +29,18 @@ h1{
 .floatR{
     float: right;
 }
-.portfolio-close-item{
+.portfolio-wrapper .fix a.portfolio-close-item{
     font-size: 1.9rem;
-    /* margin-left: -20px; */
-    /*margin:-50px 0 50px -100px;*/
     color:#fff;
     text-decoration: none;
     display:block;
     font-family: 'Oswald', 'sans-serif';
-    /* margin-top: -15px; */
-    margin-bottom:  30px;
     position: absolute;
-    right: 21px;
-    top: 10px;
+    left: 0;
+    bottom: 0;
+    color:#000;
+    text-decoration: underline;
+    padding: 14% 10%;
 }
 h1::after{
     position: absolute;
@@ -87,7 +86,8 @@ footer{
 }
 /*Open Menu Classes*/
 .wrapper, footer, header, .menu-open aside, #menu-button, #play, #pause, section#work a,
-section#work img, #menu-button img, #menu-button span, body, .button, .arrow, .social-media li, button{
+section#work img, #menu-button img, #menu-button span, body, .button, .arrow, .social-media li, button,
+section#work .item h3, section#work .item img, section#work .item{
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
     -o-transition: all .5s ease-out;
@@ -255,33 +255,53 @@ section#about .flower-wrapper{
     Work
 
 /**************************************************************/
-section#work a{
+section#work {
+    box-shadow: 0px 10px 50px 0 #999;
+}
+section#work .item {
+    border:solid 1px #000;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative;
+    margin-bottom: 12%;
+}
+section#work .item a{
     color: #000;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
+    display: block;
+    position: absolute;
+    padding-top:25%;
+    top:0;    
+    bottom: 0;
+    width: 100%;
 }
-section#work h3{
-    font-size: 2rem;
-    margin: 3px 0 40px;
-    letter-spacing: 1px;
-    text-align: center
-}
-section#work img{
+section#work .item a img{
     margin: 0 auto;
     width: 111px;
     border-radius: 50%;
-    /*border: dashed 2px #ccc;
-    padding: 7px;*/
     display: block;
 }
-section#work a:hover img{
-    margin-top: -10px ;
-    margin-bottom: 5px;
-    box-shadow: 0px 5px 10px #999;
+section#work .item a:hover img{
+    margin-top: -15px;
+    -webkit-animation: rotating 4s linear 1;
+    -moz-animation: rotating 4s linear 1;
+    -ms-animation: rotating 4s linear 1;
+    -o-animation: rotating 4s linear 1;
+    animation: rotating 4s linear 1;
 }
-section#work {
-    box-shadow: 0px 10px 50px 0 #999;
+section#work .item a h3{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-align: center
+}
+section#work .item a:hover h3{
+    margin-top: 15px;
+    font-size: 2.8rem;
+}
+
+section#work .item:hover{
+    box-shadow: 0px 10px 15px #999;
 }
 /**************************************************************
 
@@ -318,14 +338,7 @@ section#about,section#contact {
     display: block; 
     color: red; 
     font-style: italic; 
-} 
-/*
-#message { 
-    display:none; 
-    font-size:15px; 
-    font-weight:bold; 
-    color:#333333; 
-} */
+}
 /**************************************************************
 
     Portfolio Item
@@ -439,7 +452,8 @@ section#about,section#contact {
         background-image: none;
     }
     section#about img{
-        margin-top: 25%
+        margin-top: 25%;
+        max-width: 340px;
     }
     section#about::after{
         display: none;
@@ -468,11 +482,17 @@ section#about,section#contact {
         min-height: calc(100vh - 120px);
         padding-bottom: 0
     }
+    section#work{
+        padding-bottom: 100px
+    }
     /* Portfolio Items*/
-    .portfolio-close-item{
+    .portfolio-wrapper .fix a.portfolio-close-item{
+        display: block;
         position: absolute;
         left: -50px;
-        top: -50px
+        top: -50px;
+        color: #fff;
+        text-decoration: none
     }
     #triangle-right {
         width: 0;
