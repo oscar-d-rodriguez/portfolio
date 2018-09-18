@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  var width = $(window).width(); 
   /**
    * Menu Toggle Interaction
    */
@@ -33,12 +34,12 @@ $(document).ready(function(){
   //Dark Social
   $('.social-media li a img, #play img')
   .mouseover(function() {
-    if (!$("body").hasClass("active")) {
+    if (!$("body").hasClass("active") && width > 1024) {
       changeSource(this, "social", "social-dark");
     }
   })
   .mouseout(function() {
-    if (!$("body").hasClass("active")) {
+    if (!$("body").hasClass("active") && width > 1024) {
       changeSource(this, "social-dark", "social");
     }
   });
@@ -65,4 +66,5 @@ $(document).ready(function(){
         }, 800);
     }
   });
+
 }); 

@@ -86,7 +86,6 @@ body.active #play,
 body.active #pause,
 body.active .social-media li,
 body.active #menu-button,
-body.active aside,
 body.active button,
 body.active .button,
 body.active input[type="submit"], 
@@ -129,11 +128,24 @@ body.active header:after,
 body.active header:before{
     background-color: #666666
 }
-body.active aside ul li a{
+body.active aside ul li a,
+body.active section#about ul,
+body.active aside{
     color: #fff
 }
 body.active #intro{
     background-image: none
+}
+body.active .github{
+    padding: 3px;
+}
+.github{
+    display: block;
+    width: 32px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 32px;
+    background-color: #fff
 }
 body.active #about::after{
     background-attachment: initial;
